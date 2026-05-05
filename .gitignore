@@ -48,3 +48,22 @@ kaggle.json
 
 # Env files
 .env
+.env.*
+
+# Claude
+CLAUDE.md
+
+# Logs
+*.log
+logs/
+
+# Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
