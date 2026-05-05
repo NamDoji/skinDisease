@@ -1,0 +1,50 @@
+# Virtual environment
+skin/
+venv/
+.venv/
+env/
+
+# Data (too large for git)
+data/raw/
+data/processed/
+
+# Model outputs
+outputs/checkpoints/
+outputs/figures/
+outputs/logs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model weights
+*.pt
+*.pth
+*.onnx
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Kaggle credentials (never commit)
+kaggle.json
+
+# Env files
+.env
