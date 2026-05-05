@@ -88,6 +88,9 @@ Do **not** commit raw or processed data to the repository.
 
 ## Git Conventions
 
-- Commit as **NamDoji** (push target: `https://github.com/NamDoji/skinDisease`)
+- Commit and push as **NamDoji** (`nam@itsol.vn`) — never as `duongphamminhdung`
+- Push target: `https://github.com/NamDoji/skinDisease`
+- **Never** add Claude as a co-author or contributor in any commit message
+- Write short, casual commit messages (e.g. `add gradcam`, `fix trainer bug`)
 - Do not commit `data/`, `outputs/`, or `*.pt` checkpoint files
 - Run `make test` and `ruff check src scripts` before committing
